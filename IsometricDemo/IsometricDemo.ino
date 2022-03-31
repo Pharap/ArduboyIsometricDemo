@@ -71,10 +71,7 @@ void handleInput()
 void drawTileMap()
 {
 	for(uint8_t tileY = 0; tileY < mapHeight; ++tileY)
-	//for(uint8_t y = mapHeight; y > 0; --y)
 	{
-		//const uint8_t tileY = y - 1;
-
 		for(uint8_t tileX = 0; tileX < mapWidth; ++tileX)
 		{
 			// Calculate the x position to draw the tile at.
