@@ -105,7 +105,7 @@ void setup()
 	arduboy.begin();
 
 	// Randomly generate the map.
-	//generateMap();
+	generateMap();
 }
 
 // Game loop code
